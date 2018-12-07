@@ -8,6 +8,6 @@ Small Rails project to experiment with various chat and conversational user expe
 
 To get started:
 
-- Create new PostgreSQL user: chat_sandbox_development_admin via running `create role chat_sandbox_development_admin with createdb login password '<password>'` in psql (where `<password>` would be replaced with a password that you set).
+- Create new PostgreSQL user: chat_sandbox_development_admin via running `create role chat_sandbox with createdb login password 'ChatMeUp2019';` in psql.
 - Setup the database using `bundle exec rake db:create && bundle exec rake db:migrate`.
 - Run `rails server` to start the web application.

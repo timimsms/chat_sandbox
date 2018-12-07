@@ -24,7 +24,8 @@ default: &default
 development:
   <<: *default
   database: chat_sandbox_development
-
+  username: "chat_sandbox"
+  password: "ChatMeUp2019"
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
